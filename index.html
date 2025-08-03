@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio id="click-sound" src="./assest/select-sound-121244.mp3" preload="audio"></audio>
+    <div class="main">
+      <div class="container">
+        <div class="display">0</div>
+        <div class="cal-buttons">
+          <div class="cal-rows">
+            <button class="cal-button" id="c">C</button>
+            <button class="cal-button el diff-col" id="back">&#8592;</button>
+            <button class="cal-button diff-col el" id="divide">&divide;</button>
+          </div>
+          <div class="cal-rows">
+            <button class="cal-button start el num">7</button>
+            <button class="cal-button el num">8</button>
+            <button class="cal-button el num">9</button>
+            <button class="cal-button el diff-col" id="multiply">&times;</button>
+          </div>
+          <div class="cal-rows">
+            <button class="cal-button start el num">4</button>
+            <button class="cal-button el num">5</button>
+            <button class="cal-button el num">6</button>
+            <button class="cal-button el diff-col" id="minus">-</button>
+          </div>
+          <div class="cal-rows">
+            <button class="cal-button start el num">1</button>
+            <button class="cal-button el num">2</button>
+            <button class="cal-button el num">3</button>
+            <button class="cal-button el diff-col" id="plus">+</button>
+          </div>
+          <div class="cal-rows">
+            <button class="cal-button start num" id="zero">0</button>
+            <button class="cal-button el "id="dot">.</button>
+            <button class="cal-button el diff-col" id="equals">&equals;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

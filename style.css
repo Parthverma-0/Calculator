@@ -1,0 +1,95 @@
+*{
+    border: 0;
+    padding: 0;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+}
+body{
+  background-image: url("./assest/background3.jpg"); 
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.display{
+    background-color: white;
+    height: 4rem;
+    width: 19rem;
+    font-size: 1.5rem;
+    border-radius: .6rem;
+    margin-bottom: .5rem;
+    margin-right: .8rem;
+    text-align: right;
+    display: flex;   
+    justify-content: flex-end; 
+    align-items: center;
+    padding-right: 1rem;
+}
+.cal-button{
+    height: 4rem;
+    width: 4rem;
+    border-radius: .6rem;
+    font-size: 1.5rem;
+    margin: .3rem;
+}
+.cal-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.el{
+    margin: .6rem;
+}
+.start{
+    margin-left: 0;
+}
+
+#c{
+    width: 9.5rem;
+    margin-left: 0;
+    background-color: #D4E157;
+}
+#zero{
+    width: 9.5rem;
+    margin-right: .6rem;
+}
+.container{
+    height: 33.5rem;
+    width: 25rem;
+    background: transparent;
+    backdrop-filter: blur(1rem);
+    border: grey 2px solid;
+    border-radius: .8rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+
+}
+.diff-col{
+    background-color: #00C853;
+    color: white;
+}
+.cal-button:hover{
+    opacity: .6;
+}
+.diff-col:hover{
+    background-color: white;
+    color: black;
+    opacity: .6;
+}
+#c:hover{
+    background-color: white;
+    color: black;
+    opacity: .6;
+}
+.cal-button:active{
+    background-color: #D4AF37;
+    opacity: 1;
+}
+#c:active{
+    background-color: #D4AF37;
+    opacity: 1;
+}
